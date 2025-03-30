@@ -1,6 +1,11 @@
-print("Hello, world!:")
-print(4+5)
+number = input("정수 입력>")
+number = int(number)
 
-git config user.name (yeon0423)
-git config user.email (hong0404ha@naver.com)
+if number > 0 :
+    print("양수입니다.")
 
+if number < 0 :
+    print("음수입니다.")
+
+if number == 0 :
+    print("0입니다.")
